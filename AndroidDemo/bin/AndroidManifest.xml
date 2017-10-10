@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tjove.ipcdemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    
+	<!--允许应用程序改变网络状态-->      
+<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>      
+<!--允许应用程序改变WIFI连接状态-->      
+<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>      
+<!--允许应用程序访问有关的网络信息-->      
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>      
+<!--允许应用程序访问WIFI网卡的网络信息-->      
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>      
+<!--允许应用程序完全使用网络-->      
+<uses-permission android:name="android.permission.INTERNET"/> 
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.tjoven.main.MainActivity"
+            android:stateNotNeeded="true"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity  android:name="com.tjoven.emoji.EmojiDemo"/>
+        <activity  android:name="com.tjoven.loader.NetWorkLoaderActivity"/>
+        <activity  android:name="com.tjoven.searchView.SearchViewDemo"/>
+        <activity  android:name="com.tjoven.buttonDemo.RadionGroupDemo"/>
+        <activity  android:name="com.tjoven.drawableAnimation.DrawableAnimationActivity"/>
+        <activity  android:name="com.tjoven.propertyAnimation.LayoutTransitionActivity"/>
+        <activity  android:name="com.tjoven.propertyAnimation.PropertyAnimation2"/>
+        <activity  android:name="com.tjoven.propertyAnimation.ValuesHolderKeyFrame"/>
+        <activity  android:name="com.tjoven.propertyAnimation.ObjectAnimActivity"/>
+        
+        <activity  android:name="com.tjoven.volley.ImageRequestDemo"/>
+        <activity  android:name="com.tjoven.volley.StringRequestDemo"/>
+        
+        <!-- 动画 -->
+        <activity  android:name="com.tjoven.animation.AnimationActivity02"/>
+        <activity  android:name="com.tjoven.animation.AnimationActicity"/>
+        <!-- 时间 -->
+        <activity  android:name="com.tjoven.time.CountDownTimerActivity"/>
+        <activity  android:name="com.tjoven.time.TimeActivity"/>
+        <!-- 自定义dialog -->
+        <activity  android:name="com.tjoven.customDialog.CustomDialogActivity"/>
+        <activity  android:name="com.tjoven.customDialog.WindowDialogActivity"/>
+        
+        <activity android:name="com.tjoven.fragmentExchange.FirstActivity"/>
+        <activity android:name="com.tjoven.fragmentExchange.SecondActivity"/>
+        
+        <activity android:name="com.tjoven.socket.SocketClient"/>
+        <activity
+            android:name="com.tjoven.spannable.SpannableStringDemo"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.tjoven.listfragment.FragmentActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.tjoven.dialogFragment.DialogFragmentActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.tjoven.MVPframwork.MVPActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.tjoven.eventBus.OtherActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.tjoven.eventBus.SecondEventBus"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.tjoven.eventBus.EventBusDemo"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.tjoven.customView.CustomView"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.tjoven.main.ExceptionDemo"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.tjoven.annotation.AnnotationDemo"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.tjoven.memoryLeak.MemoryLeak"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.tjoven.grideView.GrideViewDemo"
+            android:label="@string/app_name" >
+        </activity>
+        
+        
+        
+        <activity
+            android:name="com.tjoven.fragmentExchange.SelectImage"
+            android:label="@string/app_name" >
+        </activity>
+        
+    </application>
+
+</manifest>

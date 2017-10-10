@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/dd_dimen_30px"
+    android:paddingRight="@dimen/dd_dimen_30px"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+<RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dd_dimen_320px"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/dd_dimen_30px"
+        android:paddingRight="@dimen/dd_dimen_30px"
+        android:orientation="vertical">
+        
+        <LinearLayout 
+            android:layout_above="@+id/choice_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView 
+	           android:id="@+id/title"
+               android:layout_gravity="center"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:text="现在开始上线？"
+	           android:textSize="@dimen/dd_dimen_40px"
+	           android:textColor="@color/dialog_title"/> 
+        </LinearLayout>
+       
+        <LinearLayout 
+            android:id="@+id/choice_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/dd_dimen_30px"
+            android:layout_alignParentBottom="true"
+            >
+            <Button 
+                android:id="@+id/cancel"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dd_dimen_90px"
+                android:layout_weight="3"
+                android:background="@drawable/btn_back"
+                android:text="取消"
+                android:textSize="@dimen/dd_dimen_34px"
+                android:textColor="@color/dialog_title"
+                />
+            <Button 
+                android:id="@+id/ok"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dd_dimen_90px"
+                android:layout_weight="4"
+                android:text="确定"
+                android:layout_marginLeft="@dimen/dd_dimen_30px"
+                android:textSize="@dimen/dd_dimen_34px"
+                android:textColor="@color/dialog_title"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

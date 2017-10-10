@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="bg">#474b59</drawable>
+    <color name="mask_bg">#d0000000</color>
+    <color name="main_bg">#efefef</color>
+    <color name="blank_fg">#808080</color>
+    <color name="loction_city_flag_color">#d2d6dd</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#3c6691</color>
+    <color name="base_yellow">#FDBF03</color>
+    <color name="base_gray">#EAEADB</color>
+    <color name="base_half_gray">#30000000</color>
+    <color name="base_list_normal">#00000000</color>
+    <color name="base_list_pressed">#50000000</color>
+    <color name="base_gray_blue">#E6E6E6</color>
+    <color name="base_light_black">#666666</color>
+    <color name="base_line">#C8C8C8</color>
+    <color name="base_title_blue">#353947</color>
+    <color name="search_black_transparent_20">#33000000</color>
+    <color name="search_black_transparent_21">#36000000</color>
+    <color name="order_side_transparent">#26000000</color>
+    <color name="color_4e4f57">#4e4f57</color>
+    <color name="wait_result_gray">#989ab3</color>
+    <color name="myuser_add_common_del">#c93124</color>
+    <color name="trip_detail_background">#f9f9f9</color>
+    <color name="radionbutton_uncheck">#666666</color>
+    <color name="radionbutton_check">#3c4483</color>
+    <color name="textview_fg">#231f20</color>
+    <color name="category_title_line">#1d2628</color>
+    <!-- 首页 -->
+    <color name="index_yellow">#FDBF03</color>
+    <color name="index_gray">#949797</color>
+    <color name="index_title_blue">#334466</color>
+    <color name="index_menu_blue">#304060</color>
+    <color name="index_menu_bottom_blue">#2c3c5d</color>
+    <color name="index_flag_yellow">#b3fdb811</color>
+    <color name="index_score_yellow">#FCAE1A</color>
+    <color name="index_text_white">#e0e1ea</color>
+    <color name="index_performance_gray">#4a4f70</color>
+    <color name="index_performance_black">#2e344a</color>
+    <color name="index_performance_diver">#33bfbfc7</color>
+    <color name="index_uplocation_white">#797da0</color>
+    <color name="new_message_purple">#7f625e98</color>
+    <color name="access_green">#009966</color>
+    <color name="transparent">#00000000</color>
+    <color name="access_failed">#df3526</color>
+    <color name="index_remain_time">#ffffff</color>
+    <color name="index_past_time">#fc3235</color>
+    <color name="index_returncar_time_bg">#3c404d</color>
+    <!-- 我的神州 -->
+    <color name="myself_button_up">#0e2234</color>
+    <color name="myself_button_down">#1b2a38</color>
+    <color name="myself_price_yellow">#FA9908</color>
+    <color name="myself_cancel_yellow">#FDB813</color>
+    <color name="myself_line">#3b4c57</color>
+    <color name="myself_card_divider">#C0C0C0</color>
+    <!-- 代驾 -->
+    <color name="driving_low_black">#4C4C4C</color>
+    <color name="driving_light_black">#666666</color>
+    <color name="driving_yellow">#F99A09</color>
+    <color name="driving_line_black">#BCBCAF</color>
+    <color name="driving_black">#000000</color>
+    <color name="driving_car_balck">#999999</color>
+    <color name="driving_green">#359812</color>
+    <color name="driving_light_blue">#F2F2F2</color>
+
+    <!-- 自驾 -->
+    <color name="shortlease_main_nor">#FFFFFFFF</color>
+    <color name="shortlease_main_sel">#EAEADB</color>
+    <color name="shortlease_main_text_color">#4D4D4D</color>
+    <color name="color_gray">#B9B9B9</color>
+    <color name="shortlease_main_content_color">#666666</color>
+    <color name="shortlease_city_order">#b2b2b2</color>
+    <color name="color_price">#ff9905</color>
+    <color name="shortlease_main_text_blue">#339AFE</color>
+    <color name="shortlease_car_title">#333333</color>
+    <color name="shortlease_price_yellow">#FA9B08</color>
+    <color name="calendar_line">#D7D7D7</color>
+    <color name="filter_text">#b3b3b3</color>
+
+    <!-- 门店 -->
+    <color name="store_location_d">#C6C6B9</color>
+    <color name="store_location_city_d">#CCCCCC</color>
+
+    <!-- 导航 -->
+    <color name="navi_location_col">#72B4F2</color>
+    <color name="navi_location_fill_col">#33037AE9</color>
+    <color name="navi_tab_mark">#13000000</color>
+    <color name="navi_line_color">#2dd22d</color>
+    <color name="navi_font_gray">#999999</color>
+    <color name="navi_font_orange">#f46d00</color>
+    <color name="navi_route_mask">#b0ffffff</color>
+    <color name="navi_divide">#30000000</color>
+
+    <!-- push推送 -->
+    <color name="push_point_tip">#989dbb</color>
+    <color name="push_point_name">#333333</color>
+    <color name="push_point_detail">#666666</color>
+    <color name="push_price_factor">#f9b629</color>
+
+    <!-- 接送机 -->
+    <color name="flight_normal_black">#3C454D</color>
+    <color name="flight_light_black">#C1C7D1</color>
+    <color name="flight_fee_light_black">#A3B3C6</color>
+    <color name="flight_time_orange">#FF6600</color>
+    <color name="flight_line">#CCCCCC</color>
+    <color name="flight_title_gray">#F1F1F1</color>
+    <color name="flight_pressed_orange">#FF8331</color>
+    <color name="flight_title_yellow">#faae1a</color>
+    <color name="flight_list_select">#EEEEEE</color>
+    <color name="flight_transparent">#E0000000</color>
+    <color name="flight_light_gray">#F8F8F8</color>
+    <color name="flight_number_black">#494949</color>
+    <color name="flight_number_none_gray">#BDC8D5</color>
+
+    <!-- 行程 -->
+    <color name="trip_text_name">#3e454d</color>
+    <color name="trip_text_value">#a3b3c6</color>
+    <color name="trip_payment_color">#ff6600</color>
+    <color name="trip_wait_driver_color">#f6135e</color>
+    <color name="trip_cancel_color">#dbdbdb</color>
+
+    <!-- 我的 -->
+    <color name="myuser_top">#f4faee</color>
+    <color name="myuser_top_text">#5e714e</color>
+    <color name="myuser_text_black">#3e454d</color>
+    <color name="myuser_exit_up">#ed5565</color>
+    <color name="myuser_exit_down">#f97381</color>
+    <color name="myuser_workup">#a0d468</color>
+    <color name="myuser_workdown">#ed5565</color>
+    <color name="read_msg">#81848a</color>
+    <color name="performance_click_bg">#363c49</color>
+    <color name="logout">#f5b63c</color>
+    <!-- 登录 注册 忘记密码 -->
+    <color name="login_bg">#faf9fd</color>
+    <color name="login_placeholder">#c1c4d6</color>
+    <color name="forgot_sms_text">#fa9d4c</color>
+    <color name="forgot_sms_text_disable">#989dbb</color>
+    <color name="forgot_sms_item_backgroud">#efefef</color>
+    <color name="sms_edit_hint_color">#bfbfbf</color>
+    <color name="sms_edit_color">#404041</color>
+    <!-- 确认按钮默认颜色 -->
+    <color name="commitbuttoncolor">#cccccc</color>
+    <!-- 确认按钮颜色可点击时颜色 -->
+    <color name="commitbuttoncolor_clickable">#f68a3c</color>
+    <!-- 确认按钮颜色被按下时 -->
+    <color name="commitbuttoncolor_onclick">#f68a3c</color>
+    <!-- 确认按钮颜色可点击时颜色 -->
+    <color name="greenbuttoncolor_clickable">#128a53</color>
+    <!-- 确认按钮颜色被按下时 -->
+    <color name="greenbuttoncolor_onclick">#f0128a53</color>
+    <!-- 注册  输入框中每行的小标题文字 -->
+    <color name="registertext">#3e454d</color>
+    <!-- 注册 忘记密码 获取验证码按钮颜色 -->
+    <color name="getauthcodebutton">#47b0ed</color>
+    <!-- 注册 忘记密码 获取验证码按钮颜色 -->
+    <color name="getauthcodebutton_onclick">#69c7ff</color>
+
+    <!-- 司机端 顶部分割线颜色 -->
+    <color name="green_line">#d0d9c8</color>
+    <color name="gray_line">#dcdcdc</color>
+    <color name="ke_hu_liu_yan">#5a5a5a</color>
+    
+    <!--私人电话-->
+    <color name="private_phone_edit_hint_color">#bfbfbf</color>
+    <color name="private_phone_edit_color">#404041</color>
+
+    <!-- 推送新增 -->
+    <color name="push_position_detail">#697078</color>
+    <color name="push_close_btn_color">#993d00</color>
+    <color name="push_text_color">#3e454d</color>
+    <color name="list_backgroud_color">#2fb3cb</color>
+    <color name="title_color">#ffffff</color>
+    <color name="content_color">#737373</color>
+    <color name="push_title_type_bg">#3399cc</color>
+
+    <!-- 离线地图管理 -->
+    <color name="category_list_item">#30000000</color>
+    <color name="category_list_city_bg">#f2f2f2</color>
+    <color name="category_list_line">#30000000</color>
+    <color name="category_font">#262626</color>
+    <color name="category_font_download">#4de4ca</color>
+    <color name="address_search_bg">#72757f</color>
+    <color name="category_title_font">#808285</color>
+    <color name="category_title_bg">#E6E7E8</color>
+    
+    <color name="flight_title_orange">#f7b73b</color>
+
+    <color name="none_addr">#cccccc</color>
+    <color name="has_addr">#4a4f70</color>
+    <color name="workstatus_unpressed">#faf9fd</color>
+    <color name="workstatus_pressed">#e4e8f7</color>
+    
+    <color name="cur_versionname">#bfbfc7</color>
+    <color name="cur_versionname_part_time">#737888</color>
+    <color name="cur_forget_password_part_time">#707586</color>
+    <color name="login_btn">#231f20</color>
+    <color name="auth_click">#fcae1a</color>
+    <color name="auth_click_txt">#ffffff</color>
+    <color name="login_edt">#ffffff</color>
+    <color name="main_divide_bg">#33bfbfc7</color>
+    <color name="main_divide_txt">#bfbfc7</color>
+    <color name="navi_item_bg">#f2f2f2</color>
+    
+    <!-- 订单详情 -->
+    <color name="order_detai_title">#bfbfc7</color>
+    <color name="order_detai_title_ui3">#231f20</color>
+    <color name="order_detai_fc">#f5b63c</color>
+    <color name="order_detai_fb">#fbae1a</color>
+    <color name="order_info_value">#808080</color>
+    <color name="order_detai_text">#404041</color>
+    <color name="order_cost_bg">#efefef</color>
+    <color name="order_cost_des_bg">#bfbfbf</color>
+    <color name="order_item_bg">#fba010</color>
+    <color name="order_detai_state">#ffe0a4</color>
+    <color name="order_detai_content">#808080</color>
+    <color name="order_detai_charge">#f5b63c</color>
+    <color name="order_detai_bottom_font">#666666</color>
+    <color name="order_detai_bottom_bg">#aaffffff</color>
+    <color name="order_detail_route_overlay">#2196f3</color>
+    <color name="order_user_info_fontcolor">#333333</color>
+    <color name="order_company_fontcolor">#fbac1a</color>
+    <color name="order_detail_blance_fontcolor">#29a81f</color>
+    <color name="order_detail_bottom_line">#e5e5e5</color>
+    <color name="order_detail_bottom_need_pay">#ff3333</color>
+    
+    <!-- 订单查询 -->
+    <color name="order_unfinish_fg">#f10000</color>
+    <color name="passed_date">#262626</color>
+    <color name="unpassed_date">#b7b7b7</color>
+    <color name="sat_sun">#ff6600</color>
+    <color name="selected_area_color">#ff6600</color>
+    <color name="query_con_checked">#ffffff</color>
+    <color name="query_con_nor">#414042</color>
+    
+    <!-- 订单列表 -->
+    <color name="order_type_blue">#67bcf4</color>
+    <color name="order_type_orange">#fb951b</color>
+    <color name="order_type_gray">#bebebe</color>
+    <color name="order_list_text_content">#262626</color>
+    <color name="order_list_text_detail_content">#b0b0b0</color>
+    
+    <!-- 通用字体颜色 -->
+    <color name="font_main_color">#ffffff</color><!-- 主颜色-白色 -->
+    <color name="font_secondary_color">#bfbfc7</color><!-- 次要颜色-灰色 -->
+    <color name="font_title_color">#fcae1a</color><!-- 标题色-橙黄色 -->
+    <color name="font_black_color">#000000</color><!-- 黑色 -->
+    <color name="font_status_blue_color">#4de4ca</color><!-- 状态色——绿色 -->
+    <color name="line_color">#33bfbfc7</color><!-- 线条颜色 -->
+    <color name="click_background">#19000000</color>
+    <color name="auth_disable">#797da0</color>
+    <color name="edit_hint_color">#72767e</color><!-- 文本输入框提示字体颜色 -->
+    <color name="tab_line_color">#1d2628</color>
+    <!-- 更多 -->
+    <color name="sel_advice_type">#3c4483</color>
+    <color name="sel_type_font">#3c4483</color>
+    <color name="unsel_type_font">#666666</color>
+    <color name="type_line_color">#e0e1ea</color>
+    <color name="group_bg_color">#33e0e1ea</color>
+    <color name="bg_color">#474b59</color>
+    <!-- 对话框 -->
+    <color name="dialog_title">#404041</color>
+    <color name="dialog_desc">#bfbfbf</color>
+    <!-- tabview -->
+    <color name="tabbar_indicator">#ecbc09</color>
+    <color name="tabbar_line">#939598</color>
+    <color name="tabbar_focus_fg">#f8c737</color>
+    <color name="tabbar_unfocus_fg">#dcdcdc</color>
+    <!-- 请假申请 -->
+    <color name="orange">#FFA500</color> <!--橙色 -->
+    <color name="red">#FF0000</color> <!--红色 -->
+    <color name="gray">#808080</color> <!--灰色 -->
+    <color name="green">#79b313</color> <!--灰色 -->
+    <color name="myuser_fragment_bg_trans_40">#66000000</color>
+    <color name="font_apply_title">#404040</color>
+    <color name="font_apply_txt">#262626</color>
+    <color name="apply_cause_hint_color">#939598</color><!-- 文本输入框提示字体颜色 -->
+    <color name="font_apply_save_button">#231f20</color>
+    <color name="font_apply_item_backgroud">#efefef</color>
+    <color name="font_apply_cancel">#b0b0b0</color>
+    <!-- 个人管理 -->
+    <color name="leftmenu_bg">#2e344a</color>
+    <color name="item_content">#b0b0b0</color>
+    <color name="base_info_bg">#f2f2f2</color>
+    <color name="base_info_font">#414042</color>
+    
+    <!-- 仪表盘-->
+    <color name="dash_red">#ff2f2c</color>
+    <color name="dash_orange">#ffaf00</color>
+    <color name="dash_green">#31d79b</color>
+    
+    <!-- 驾驶警报-->
+    <color name="backgroud_query_term">#292c36</color>
+
+    <color name="backgroud_reset_password_hint">#3a3e4c</color>
+    <!-- 微客服-->
+    <color name="easemob_menu_color">#ff9c00</color>
+    <color name="leave_message_status1_color">#e60012</color>
+    <color name="leave_message_status2_color">#79b313</color>
+    <color name="easemob_bg">#f2f0eb</color>
+    
+    <!-- 司机动态价格-->
+    <color name="fill_less_1">#7f17cb8e</color>
+    <color name="fill_equal_1">#7fffed56</color>
+    <color name="fill_1_1dot5">#7ffbb224</color>
+    <color name="fill_1dot5_2">#7fff4800</color>
+    <color name="fill_more_2">#7fff0009</color>
+    <color name="stroke_less_1">#2e7d32</color>
+    <color name="stroke_equal_1">#ac6a00</color>
+    <color name="stroke_1_1dot5">#ac6a00</color>
+    <color name="stroke_1dot5_2">#8f5800</color>
+    <color name="stroke_more_2">#a40000</color>
+    
+    <!-- 搜附近 -->
+    <color name="detail_poi_name">#333333</color>
+    <color name="detail_poi_other">#808080</color>
+    <color name="detail_poi_price">#fd4318</color>
+    <color name="poi_recommend_check">#ff9c00</color>
+    <color name="poi_recommend_uncheck">#333333</color>
+    <color name="poi_uncheck_num">#7c7c7c</color>
+    <color name="item_poi_name">#333333</color>
+    <color name="item_poi_other">#7c7c7c</color>
+    <color name="line_divider">#cfcfd5</color>
+    <color name="btn_nav">#333333</color>
+    
+    <color name="mode_con_checked">#ecbc09</color>
+    <color name="mode_con_unchecked">#a7a8ac</color>
+    <color name="mode_item_pressed">#cdcdcd</color>
+    <color name="mode_item_normal">#ffffff</color>
+    <color name="fill_order_less_5">#7fffed56</color>
+    <color name="fill_order_5_10">#7fff4800</color>
+    <color name="fill_order_more_10">#7fff0009</color>
+    <color name="stroke_order_less_5">#ac6a00</color>
+    <color name="stroke_order_5_10">#8f5800</color>
+    <color name="stroke_order_more_10">#a40000</color>
+    
+    <!-- 警示牌 -->
+	<color name="item_alarm">#333333</color>
+	<color name="tip_desc">#333333</color>
+	<color name="push_page_button_txt">#ff8e14</color>
+	
+	<!-- 报销相关 -->
+	<color name="expense_yellow">#fba010</color>
+	<color name="expense_green">#79b313</color>
+	<color name="expense_red">#e60012</color>
+	<color name="expense_black">#404041</color>
+	<color name="reimburse_pending">#fba010</color>
+	<color name="reimburse_cancel">#bdbdbd</color>
+	<color name="reimburse_pass">#79b313</color>
+	<color name="reimburse_reject">#e60012</color>
+	<color name="reimburse_commit">#404041</color>
+	<color name="reimburse_detail_title">#404041</color>
+	<color name="reimburse_detail_cat">#8a8a8a</color>
+	<color name="reimburse_detail_status">#fba010</color>
+	<color name="reimburse_detail_content">#f5b63c</color>
+	<color name="reimburse_detail_cancel">#666666</color>
+	<color name="add_reimburse_txt">#606060</color>
+	<color name="add_reimburse_hint">#bfbfbf</color>
+	
+	<!-- 顺风车弹框 -->
+	<color name="shunfengche_txt">#404041</color>
+	
+	<!-- 我得钱包-->
+	<color name="account_bg">#efefef</color>
+	<color name="account_txt">#404041</color>
+	<color name="account_nor">#231f20</color>
+	<color name="account_red">#e60012</color>
+	<color name="account_tip">#bfbfbf</color>
+	<color name="font_pay_button">#231f20</color>
+	<color name="font_store_button">#bdbdbd</color>
+	<color name="account_line_color">#bbbdbf</color>
+	<color name="gray_sel">#dcdcdc</color>
+	<color name="gray_sel_view">#F1F1F1</color>
+	<color name="deal_detail_content">#b0b0b0</color>
+	<color name="deal_detail_yellow">#fba010</color>
+	
+	<!-- 充值和提现 -->
+	<color name="wallet_bg">#EFEFEF</color>
+	<color name="wallet_common_font">#404041</color>
+	<color name="wallet_recharge_type">#666666</color>
+	<color name="wallet_balance_money">#f5b63c</color>
+	<color name="wallet_recharge_line">#bbbdbf</color>
+	<color name="wallet_result_ok">#79b313</color>
+	<color name="wallet_result_money">#f5b63c</color>
+	<color name="bank_support_name">#89000000</color>
+	<!-- 热区排队 -->
+    <color name="hot_spot_driver_number_font">#f5b63c</color>
+    <color name="txt_hot_spot_driver_number_hint">#404041</color>
+    <color name="hot_spot_bg">#efefef</color>
+    <color name="queue_status_bg">#ffffff</color>
+    <color name="queue_status_hint_font">#666666</color>
+	
+	<!-- 工资单 -->
+	<color name="item_bonus_txt">#404041</color>
+	<color name="item_real_money">#f5b63c</color>
+	<color name="item_bonus_detail">#8a8a8a</color>
+	<color name="item_grant_date">#bfbfbf</color>
+	<color name="payroll_bg">#efefef</color>
+	<color name="tip_dialog_title">#404041</color>
+	<color name="tip_dialog_content">#bfbfbf</color>
+	
+	<!-- 消息类别 -->
+    <color name="drivermsg_category_title">#262626</color>
+    <color name="drivermsg_category_content">#808080</color>
+	<color name="drivermsg_category_bg1">#694cad</color>
+	<color name="drivermsg_category_bg2">#e2152a</color>
+	<color name="drivermsg_category_bg3">#f2b206</color>
+	<color name="drivermsg_category_bg4">#4d94cf</color>
+	<color name="drivermsg_category_bg5">#67ac05</color>
+    <color name="drivermsg_message_title">#404141</color>
+    <color name="drivermsg_message_content">#b0b0b0</color>
+    <color name="drivermsg_message_sep">#b3b3b3</color>
+
+    <!-- 司机头像上传 -->
+    <color name="avatar_stroke">#e8d7b6</color>
+    <color name="avatar_hint_text">#404041</color>
+    <color name="avatar_mask">#C8ffffff</color>
+	<color name="hint_avatar_mask_did_not_pass">#e60012</color>
+    <color name="hint_avatar_mask_auditing">#fba010</color>
+    <color name="hint_avatar_template_hint_txt">#bfbfbf</color>
+    
+    <!-- 投诉 -->
+    <color name="complaint_appealed">#bdbdbd</color>
+    
+    <!-- 交接班 -->
+    <color name="turn_over_form_item_backgroud">#efefef</color>
+    <color name="turn_over_form_item_title">#404041</color>
+    <color name="turn_over_line_color">#bbbdbf</color>
+    <color name="turn_over_line_color_light">#d1d3d4</color>
+    <color name="turn_over_status_bg">#f2f2f2</color>
+    <color name="turn_over_cancel_text">#909295</color>
+    <color name="turn_over_confirm_text">#f99430</color>
+    <color name="turn_over_form_hint">#bfbfbf</color>
+    <color name="turn_over_red">#e60012</color>
+	    
+    <!-- 处罚单 -->
+    <color name="font_pulishment_title">#404040</color>
+    <color name="font_pulishment_txt">#262626</color>
+    <color name="pulishment_backgroud">#efefef</color>
+    <color name="pulishment_status_backgroud">#79b313</color>
+	
+    <!-- 司机动态绩效-->
+    <color name="fill_green">#7f17cb8e</color>
+    <color name="fill_yellow">#7ffbb224</color>
+    <color name="fill_red">#7fff0009</color>
+    <color name="stroke_green">#2e7d32</color>
+    <color name="stroke_yellow">#ac6a00</color>
+    <color name="stroke_red">#a40000</color>
+    <color name="performance_green">#79b313</color>
+    <color name="performance_yellow">#f9b629</color>
+    <color name="performance_red">#ff0000</color>
+    
+    
+    <!-- app检测-->
+    <color name="appstatistics_red">#c60012</color>
+    <color name="appstatistics_green">#79b313</color>
+    
+    <!-- 编辑地址-->
+    <color name="city_name_txt">#262626</color>
+    <color name="edit_address_bg">#efefef</color>
+    <color name="address_content_txt">#808080</color>
+    
+    <!-- 意见反馈-->
+    <color name="feedback_txt">#404041</color>
+    <color name="feedback_txt_hint">#939598</color>
+    <color name="feedback_item_normal">#EFEFEF</color>
+    <color name="feedback_item_click">#e6e6e6</color>
+
+    <!-- 选择城市-->
+    <color name="select_city_content_bg">#f2f2f2</color>
+    <color name="select_city_title">#808285</color>
+    <color name="select_city_index">#262626</color>
+    <color name="select_city_header_item">#E6E7E8</color>
+    
+    <!-- 车辆维修 -->
+    <color name="bg_task_type">#f2f2f2</color>
+    <color name="txt_task_type">#404041</color>
+    <color name="vehicle_dark">#404041</color>
+    <color name="bg_cancel_task">#bfbfbf</color>
+    <color name="bg_new_task">#2ebe8d</color>
+    <color name="timer_num">#ffaf00</color>
+    <color name="vehicle_line">#D1D3D4</color>
+
+    <!-- 违章 -->
+    <color name="txt_violation_detail">#404041</color>
+    <color name="txt_violation_detail_hint">#8a8a8a</color>
+    <color name="violation_reatment_pending">#fba010</color>
+    <color name="violation_audit_pending">#fba010</color>
+    <color name="violation_cancel">#79b313</color>
+    <color name="violation_reject">#e60012</color>
+    <color name="violation_line">#cccccc</color>
+    <color name="violation_audit_ongoing">#ffffff</color>
+    <color name="violation_audit_predictschedule">#b0b0b0</color>
+    <!-- 违章处理 -->
+    <color name="peccancy_list_txt_title">#404041</color>
+    <color name="peccancy_list_txt_content">#262626</color>
+    <color name="peccancy_status_pending">#fba010</color>
+    <color name="peccancy_status_check">#fba010</color>
+    <color name="peccancy_status_refuse">#e60012</color>
+    <color name="peccancy_status_clear">#79b313</color>
+    <color name="peccancy_remark_content">#404041</color>
+    <color name="peccancy_remark_hint">#bfbfbf</color>
+    
+    <!-- 更多 -->
+    <color name="more_bg">#f2f2f2</color>
+    <color name="more_line">#e5e5e5</color>
+    <color name="more_click_bg">#e6e6e6</color>
+    <color name="more_text">#333333</color>
+    <color name="week_cacl_bg">#efefef</color>
+    <color name="week_cacl_label">#404041</color>
+    <color name="week_cacl_edit">#808080</color>
+    <color name="week_cacl_edit_hint">#bfbfbf</color>
+    <color name="week_cacl_1">#ffea37</color>
+    <color name="week_cacl_2">#5be9e1</color>
+    <color name="week_cacl_3">#ff737f</color>
+    <color name="week_cacl_4">#c692ea</color>
+    <color name="week_cacl_5">#7fd26c</color>
+    <color name="week_cacl_6">#6a91e9</color>
+    <color name="week_cacl_7">#ffad37</color>
+    <color name="week_cacl_8">#ade767</color>
+    <color name="week_cacl_9">#00897b</color>
+    <color name="week_cacl_10">#8ec9fb</color>
+    <color name="week_cacl_11">#fec7df</color>
+    <color name="week_cacl_12">#f19a99</color>
+    <color name="week_cacl_13">#eb6100</color>
+    <color name="week_cacl_14">#00aaff</color>
+    <color name="week_cacl_15">#7e53c5</color>
+    <color name="week_cacl_16">#ef2636</color>
+    <color name="week_cacl_total">#f5b63c</color>
+    
+</resources>
