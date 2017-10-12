@@ -6,61 +6,43 @@ package com.tjoven.dataStruct.sort;
  *
  */
 public class QuickSortDemo {
-	
-	static int[] is = {9,7,6,5,4,8,3,2,1,4,2,8};
+	static int[] array = {9,7,6,5,4,8,3,2,1,4,2,8};
 	
 	public static void main(String[] args) {
-		play(is, 0, is.length-1);
-		
-		for (int i : is) {
-			System.out.println(i);
+		quickSort(array, 0, array.length-1);
+		for (int i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
 		}
-	}
-	private static void play(int[] array, int start,int end) {
-		// TODO Auto-generated method stub
-		if(start>=end){
-			return;
-		}
-		int pivotIndex = getPivotIndex(array, start, end);
-		play(array, start, pivotIndex - 1);
-		play(array, pivotIndex + 1,end);
 	}
 	
-	private static int getPivotIndex(int[] array, int start,int end ) {
-		// TODO Auto-generated method stub
-		int pivot = array[start];
-		int low = start +1 ;
-		int height = end;
+	private static void quickSort(int[] array,int low,int height){
+		if(low >= height){
+			return;
+		}
+		int index = getPivotIndex(array, low, height);
+		quickSort(array, low, index-1);
+		quickSort(array, index+1, height);
+	}
+	
+	private static int getPivotIndex(int[] array,int low,int height){
+		int stand = array[low];
 		
-		while (height > low) {
+		while (low < height) {
 			
-			while (low<=height && array[low]<pivot) {
-				low++;
-			}
-			
-			while (low<=height && array[height]>pivot) {
+			while (array[height] >= stand && low < height) {
 				height--;
 			}
+			array[low] = array[height];
 			
-			if(height > low){
-				int temp = array[height];
-				array[height] = array[low];
-				array[low] = temp;
+			while (array[low] <= stand && low < height) {
+				low++;
 			}
+			array[height] = array[low];
+			
 		}
+		array[low] = stand;
 		
-		while (array[height]>pivot && height>start) {
-			height--;
-		}
-		
-		if(height>start){
-			array[start] = array[height];
-			array[height] = pivot;
-			return height;
-		}else{
-			return start;
-		}
-		
+		return low;
 		
 	}
 }

@@ -1,6 +1,7 @@
 package com.tjove.main;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class ArrDemo {
 
@@ -16,6 +17,10 @@ public class ArrDemo {
 		demo.play(list,i);
 		System.out.println("size:"+list.size());
 		System.out.println("i:"+i);
+		LinkedList<String> list2 = new LinkedList<String>();
+		list2.iterator().hasNext();
+		list.iterator().hasNext();
+		list2.listIterator().remove();
 	}
 
 	private void play(ArrayList<String> list,int i) {

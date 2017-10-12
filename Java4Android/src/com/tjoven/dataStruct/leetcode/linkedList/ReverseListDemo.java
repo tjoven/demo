@@ -17,14 +17,33 @@ public class ReverseListDemo {
 	}
 	
 
-	public static ListNode reverseList(ListNode head) {
-        if(head ==null ||head.next ==null) return head;
-        ListNode nextNode = head.next;
-        head.next = null;
-        ListNode result = reverseList(nextNode);
-        nextNode.next = head;
-        return result;
-    }
+	
+	private static ListNode reverseList(ListNode origin) {
+		// TODO Auto-generated method stub
+		if (origin == null || origin.next == null) {
+			return origin;
+		}
+		ListNode nextNode = origin.next;
+		origin.next = null;
+		ListNode result = reverseList(nextNode);
+		nextNode.next = origin;
+		return result;
+	}
+
+
+	private static ListNode reverseList2(ListNode origin) {
+		// TODO Auto-generated method stub
+		ListNode pre = null;
+		ListNode now = origin;
+		while (now!=null) {
+			ListNode temp = now.next;
+			now.next = pre;
+			pre = now;
+			now = temp;
+			
+		}
+		return pre;
+	}
 
 }
 
