@@ -1,19 +1,21 @@
 package com.tjoven.dataStruct;
 
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
 
 
 public class StringDemo {
 	public static void main(String[] args) {
-		String[] strings = new String[5];
+		Map<String, String> map = new HashMap<String, String>(3);
+		map.put("a", "A");
+		map.put("a", "B");
 		
-		String command = "cmd /c start C:\\Users\\car\\Desktop\\aa.txt";
-		try {
-			Runtime.getRuntime().exec(command);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		System.out.println(map.get("a"));
+		for (Entry<String, String> entry : map.entrySet()) {
+			System.out.println(entry.getValue());
 		}
 		
 	}
