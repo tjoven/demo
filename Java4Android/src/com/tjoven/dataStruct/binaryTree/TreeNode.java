@@ -2,13 +2,13 @@ package com.tjoven.dataStruct.binaryTree;
 
 public class TreeNode {
 
-	public int element;
+	public int val;
 	public TreeNode left;
 	public TreeNode right;
 	
-	public TreeNode(int element, TreeNode left, TreeNode right) {
+	public TreeNode(int val, TreeNode left, TreeNode right) {
 		super();
-		this.element = element;
+		this.val = val;
 		this.left = left;
 		this.right = right;
 	}
