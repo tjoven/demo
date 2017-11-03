@@ -5,7 +5,7 @@ public class UserOpera implements IUserOpera{
 	User user=new User();
 	
 	@Override
-	public void login(final String name, final String passWord, final OnLoginLostener listener) {
+	public void login(final String name, final String passWord, final OnLoginListener listener) {
 
 		new Thread(new Runnable() {
 			

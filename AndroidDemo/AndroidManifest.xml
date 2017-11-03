@@ -35,6 +35,11 @@
         </activity>
         
         
+        <activity  android:name="com.tjoven.singleSelectList.SingleSelectList"/>
+        <activity  android:name="com.tjoven.launchMode.SecondActivity"
+            />
+        <activity  android:name="com.tjoven.launchMode.FirstActivity"
+            />
         <activity  android:name="com.tjoven.emoji.EmojiDemo"/>
         <activity  android:name="com.tjoven.loader.NetWorkLoaderActivity"/>
         <activity  android:name="com.tjoven.searchView.SearchViewDemo"/>

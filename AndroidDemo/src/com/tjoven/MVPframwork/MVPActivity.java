@@ -2,6 +2,7 @@ package com.tjoven.MVPframwork;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.util.AttributeSet;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;

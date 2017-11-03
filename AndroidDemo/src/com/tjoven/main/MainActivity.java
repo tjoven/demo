@@ -61,6 +61,8 @@ public class MainActivity extends BaseActivity {
 		arrayList.add(new Demo("LayoutTransitionActivity",com.tjoven.propertyAnimation.LayoutTransitionActivity.class));
 		arrayList.add(new Demo("DrawableAnimationActivity",com.tjoven.drawableAnimation.DrawableAnimationActivity.class));
 		arrayList.add(new Demo("RadionGroupDemo",com.tjoven.buttonDemo.RadionGroupDemo.class));
+		arrayList.add(new Demo("FirstActivity",com.tjoven.launchMode.FirstActivity.class));
+		arrayList.add(new Demo("SingleSelectList",com.tjoven.singleSelectList.SingleSelectList.class));
 		
 	}
 	@Override
