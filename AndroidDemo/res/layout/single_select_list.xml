@@ -7,9 +7,10 @@
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:dividerHeight="20dip"
         android:choiceMode="singleChoice"
-        >
-        
+        android:fadingEdge="none"
+        android:listSelector="#00000000">
     </ListView>
 
 </LinearLayout>
