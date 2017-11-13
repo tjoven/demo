@@ -5,17 +5,20 @@ import java.util.ArrayList;
 import com.tjove.ipcdemo.R;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.RadioButton;
 
-public class ItemAdapter extends BaseAdapter{
+public class ItemAdapter<Content> extends BaseAdapter{
 
 	Context context;
+	Content content;
 	int selectedPosition =-1;
 	public ItemAdapter (Context context){
 		this.context = context;
@@ -45,22 +48,38 @@ public class ItemAdapter extends BaseAdapter{
 	@Override
 	public View getView(final int position, View convertView, ViewGroup parent) {
 		// TODO Auto-generated method stub
-		View view = LayoutInflater.from(context).inflate(R.layout.item_radio, null);
+		Log.d("ItemAdapter", "getView"+position);
+		View view=null;
+		if(convertView==null){
+			view = LayoutInflater.from(context).inflate(R.layout.item_radio, null);
+		}else{
+			view = convertView;
+		}
 		RadioButton radioButton = (RadioButton) view.findViewById(R.id.button);
+		radioButton.setText(getItem(position).toString());
 		if(selectedPosition == position){
 			radioButton.setChecked(true);
 		}else {
 			radioButton.setChecked(false);
 		}
-		radioButton.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+		Log.d("adapter", "getView"+position);
+		Log.d("adapter", "getView"+selectedPosition);
+//		radioButton.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+//			
+//			@Override
+//			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+//				
+//
+//				
+//			}
+//		});
+		radioButton.setOnClickListener(new OnClickListener() {
 			
 			@Override
-			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-				if(isChecked){
+			public void onClick(View v) {
+				Log.d("adapter", "onCheckedChanged"+position);
 					selectedPosition = position;
 					notifyDataSetChanged();
-				}
-
 				
 			}
 		});

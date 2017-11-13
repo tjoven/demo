@@ -19,14 +19,13 @@ public class SingleSelectList extends Activity{
 		listView = (ListView)findViewById(R.id.list);
 		ItemAdapter adapter = new ItemAdapter(this);
 		ArrayList<String> arrayList = new ArrayList<String>();
-		for(int i = 0;i<20;i++){
-			arrayList.add("a");
-			arrayList.add("a");
-			arrayList.add("a");
+		for(int i = 0;i<5;i++){
+			arrayList.add("a\nc");
+			arrayList.add("b");
 		}
-		arrayList.addAll(collection)
 		adapter.setData(arrayList);
 		listView.setAdapter(adapter);
-		adapter.notifyDataSetChanged();
+//		adapter.notifyDataSetChanged();
+		adapter.notifyDataSetInvalidated();
 	}
 }
