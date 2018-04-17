@@ -14,9 +14,6 @@ public class BuilderPattern {
 	public void build() {
 		Macbook.MacbookBuilder builder=new Macbook.MacbookBuilder();
 		Computer macbook=builder.setBoard("英特尔 I7").setDisplay("Retina 显示器").setOS("MacOS").build();
-		
 		System.out.println(macbook.toString());
-		
-		
 	}
 }
