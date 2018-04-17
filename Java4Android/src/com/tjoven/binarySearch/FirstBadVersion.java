@@ -2,7 +2,7 @@ package com.tjoven.binarySearch;
 
 public class FirstBadVersion {
 
-	static final int N = 11;
+	static final int N = 1;
 	static int first = 1;
 	static int last = N;
 	public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class FirstBadVersion {
     }
 	
 	private static boolean isBadVersion(int n) {
-		if(n>=3){
+		if(n>=1){
 			return true;
 		}
 		return false;
