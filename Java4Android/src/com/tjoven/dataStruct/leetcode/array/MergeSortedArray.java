@@ -6,10 +6,10 @@ public class MergeSortedArray {
 
 /*	nums1 = [1,2,3,0,0,0], m = 3
 	nums2 = [2,5,6],       n = 3*/
-	static int[] nums1 = {4,5,6,0,0,0};
-	static int[] nums2 = {1,2,3}; 
-	static int m = 3;
-	static int n = 3;
+	static int[] nums1 = {4,0,0,0};
+	static int[] nums2 = {1,2}; 
+	static int m = 1;
+	static int n = 2;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		MergeSortedArray demo = new MergeSortedArray();
@@ -25,19 +25,20 @@ public class MergeSortedArray {
 			System.arraycopy(nums2, 0, nums1, 0,n);
     		return;
 		}
-		
+		int index = 0;//上次杀入的位置
         for (int i = 0; i < n; i++) {
         	
-        	if(nums2[i]>=nums1[m-1]){
+        	if(nums2[i]>=nums1[m+i-1]){//如果比nums1中最后一个数还大，就把nums2加到nums1后面
         		System.arraycopy(nums2, i, nums1, m+i,n-i);
         		return;
         	}
         	
-        	for(int j = 0; j < m+i; j++){
+        	for(int j = index; j < m+i; j++){
         		if(smaller(nums2[i],nums1[j])){
     				//插入
-        			 System.arraycopy(nums1, j, nums1, j+1, m-j);
+        			 System.arraycopy(nums1, j, nums1, j+1, m+i-j);
         			 nums1[j] = nums2[i];
+        			 index = j;
     				break;
     			}
         	}
