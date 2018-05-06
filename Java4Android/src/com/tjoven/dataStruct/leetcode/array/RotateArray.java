@@ -13,7 +13,7 @@ public class RotateArray {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		rotate02(nums, 5);
+		rotate03(nums, 15);
 		System.out.println(Arrays.toString(nums));
 	}
 
@@ -34,4 +34,28 @@ public class RotateArray {
         
         System.out.println(Arrays.toString(result));
     }
+	
+	/**
+	 * Using Reverse
+	 * @param nums
+	 * @param k
+	 */
+	public static void rotate03(int[] nums, int k) {
+		k = k%nums.length;
+		reverse(nums,0,nums.length-1);
+		reverse(nums,0,k-1);
+		reverse(nums,k,nums.length-1);
+        
+    }
+	
+	static void reverse(int[] nums,int start,int end){
+		int temp;
+		int i = 0;
+		while(start+i<=end-i){
+			temp = nums[start+i];
+			nums[start+i] = nums[end -i];
+			nums[end - i] = temp;
+			i++;
+		}
+	}
 }
