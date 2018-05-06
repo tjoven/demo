@@ -17,6 +17,11 @@ public class RotateList {
 	}
 	
 	public static ListNode rotateRight(ListNode head, int k) {
+		
+		if (head == null) {
+            return null;
+        }
+		
 		k = k%getLentgh(head);
 		ListNode dummy = new ListNode(0);
 		ListNode curNode = head;
