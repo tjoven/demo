@@ -1,5 +1,8 @@
 package demo;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class Demo01 {
 	volatile int a = 0;
 	
@@ -9,32 +12,13 @@ public class Demo01 {
 	
 	}
 	
-	void printA(String tag,int a){
-		System.out.println(tag+":"+a);
-		
-	}
 	
 	void play(){
-		 a = 0;
-		new Thread(new Runnable() {
-			
-			@Override
-			public void run() {
-				// TODO Auto-generated method stub
-				a++;
-				printA("one",a);
-			}
-		}).start();
-		
-		new Thread(new Runnable() {
-			
-			@Override
-			public void run() {
-				// TODO Auto-generated method stub
-				a++;
-				printA("other",a);
-			}
-		}).start();
+		 String str = "一口价 ¥9.0";
+		 Pattern compile = Pattern.compile("\\d+\\.?\\d?+");
+         Matcher matcher = compile.matcher(str);
+         matcher.find();
+         String fixedMoney = matcher.group();
+         System.out.print(fixedMoney);
 	}
-	
 }
