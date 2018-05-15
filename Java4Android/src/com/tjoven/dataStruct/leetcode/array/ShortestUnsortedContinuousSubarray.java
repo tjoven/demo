@@ -8,7 +8,7 @@ import java.util.Arrays;
  *
  */
 public class ShortestUnsortedContinuousSubarray {
-	static int[] nums = {2, 4,5,6};
+	static int[] nums = {2,4,5,3,10,15};
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("length:"+findUnsortedSubarray(nums));
