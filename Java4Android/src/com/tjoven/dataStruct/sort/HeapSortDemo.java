@@ -15,44 +15,47 @@ public class HeapSortDemo {
 		headSort(is);
 		System.out.print(Arrays.toString(is));
 	}
-	
-	private static void headSort(int[] array){
-		int startIndex = array.length/2-1;
-		for (int i = startIndex; i >= 0; i--) {
-			heapAdjust(array, i,array.length-1);
+	private static void headSort(int[] is) {
+		int len = is.length;
+		// 构建最大堆
+		for(int i = len/2;i>0;i--){
+			adajust(is,i,len-1);
 		}
 		
-		for (int i = 0; i < array.length; i++) {
-			swap(array,0 ,array.length-i-1);
-			heapAdjust(array, 0, array.length-i-2);
+		for(int i = len-1;i>=0;i--){
+			swap(is,0,i);//把 最大数放在末尾
+			//调整最大堆
+			adajust(is,0,i-1);
 		}
-		
 	}
 	
-	private static void swap(int[] array,int first,int second){
-		int temp = array[second];
-		array[second] = array[first];
-		array[first]= temp;
-	}
-	private static void heapAdjust(int[] array,int index,int endIndex){
-		
-		while (2*index+1 <= endIndex) {
-			int temp = array[index];
-			int leftIndex = 2*index + 1;
-			int rightIndex = 2*index+2;
-			
-			int biggerIndex = ((rightIndex <= endIndex) && (array[rightIndex] > array[leftIndex] )) ? rightIndex : leftIndex;
-			
-			if(array[index] >= array[biggerIndex]){
+	/**
+	 * 
+	 * @param is  数组
+	 * @param index	  二叉树最小值
+	 * @param length 二叉树最大值
+	 */
+	private static void adajust(int[] is, int index, int max) {
+		// TODO Auto-generated method stub
+		while(2*index+1 <= max){
+			int temp = is[index];
+			int left = 2 * index+1;
+			int right = left + 1;
+			int biggerIndex = (right>max||is[left] >is[right]) ? left : right;
+			if(temp > is[biggerIndex]){
 				break;
-			}else{
-				array[index] = array[biggerIndex];
-				array[biggerIndex] = temp;
-				index = biggerIndex;
 			}
-			
+			is[index] = is[biggerIndex];
+			is[biggerIndex] = temp;
+			index = biggerIndex;
 		}
 		
+	}
+	
+	private static void swap(int[] array ,int i,int j){
+		int temp = array[i];
+		array[i] = array[j];
+		array[j] = temp;
 	}
 
 }
